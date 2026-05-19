@@ -1,0 +1,28 @@
+name: Next.js Docker CI/CD
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  docker-build:
+    runs-on: ubuntu-latest
+
+    steps:
+    
+      # Checkout repository
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      # Setup Docker Buildx
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      # Build Docker Image
+      - name: Build Docker Image
+        run: docker build -t proton_agency .
+
+      # Success Message
+      - name: Build Success
+        run: echo "Docker image built successfully!"
