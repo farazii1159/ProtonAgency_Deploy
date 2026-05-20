@@ -298,9 +298,10 @@ DevOps Engineer & Frontend Systems Developer
 
 ### 🔗 **Professional Networks**
 
-* **GitHub:** github.com/farazii1159
-* **LinkedIn:** linkedin.com/in/faraz-shabbir-5a9227344
-
+```text
+* **GitHub**: github.com/farazii1159
+* **LinkedIn**: linkedin.com/in/faraz-shabbir-5a9227344
+```
 ---
 
 # ⭐ **Support & Acknowledgments**
