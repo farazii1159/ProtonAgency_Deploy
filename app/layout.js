@@ -15,7 +15,7 @@ export const metadata = {
   title: "Proton || Build Your Dream Brand",
   description: "Proton || Build Your Dream Brand",
   icons: {
-    icon: "favicon.ico", 
+    icon: "/favicon.ico", 
   },
 };
 
